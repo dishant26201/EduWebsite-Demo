@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=roboto);
+
+body {
+    background: #333;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word !important;
+    font: "robot", sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+.toggle, [id^=drop] {
+    display: none;
+}
+
+#logo {
+    display: block;
+    padding: 0 30px;
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+#main-toggle {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.nav-icon {
+    background: orange;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+}
+
+.nav-icon:before, .nav-icon:after {
+    background: orange;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.nav-icon:before {
+    top: 5px;
+}
+
+.nav-icon:after {
+    top: -5px;
+}
+
+nav:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+nav ul {
+    float: left; /*m*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0;
+    float: left;
+    background-color: #515f9c;
+}
+
+nav a {
+    display: block;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+nav ul li ul li:hover {
+    background-color: #7083d8;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+    outline: 1px solid red;
+}
+
+nav ul li:hover>ul {
+    display: inherit;
+}
+
+li>a:after {
+    content: " +";
+}
+
+li>a:only-child:after {
+    content: " ";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

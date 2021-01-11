@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	background-color: black;
+}
+
+.registerButton {
+  background-color: #00cc00;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 14px 20px;
+  margin-top: 7px;
+  margin-right: 30px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  width: 90px;
+  outline: none;
+}
+
+.registerButton:hover {
+	opacity: 0.9;
+}
+
+.payMethod {
+	line-height: 55px;
+	float: right;
+	display:inline-block;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+.commonNav {
+	position: sticky;
+	top: 0px;
+    z-index: 10;
+	width: 100%;
+	height: 60px;
+	background: white;
+	box-shadow: 0 2px 4px -0.5px rgba(0,0,0,1);
+
+}
+
+.commonNav p {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 60px;
+	float: left;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+.commonNav p a {
+	text-decoration: none;
+	color: black;
+}
+
+.commonNav ul {
+	float: left;
+}
+
+.commonNav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+
+}
+
+.commonNav ul li a {
+	display: block;
+	font-weight: 1000;
+	font-family: arial;
+	color: black;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+
+.commonNav ul li a:hover {
+	color: #003cb3;
+}
+
+.commonNav ul li ul {
+	display: none;
+	position: absolute;
+	margin-top: -5px;
+	background-color: white;
+	box-shadow: 0 2px 4px -0.5px rgba(0,0,0,1);
+	border-radius: 8px 8px 8px 8px;
+}
+
+.commonNav ul li:hover > ul{
+	display: block
+}
+
+.commonNav ul li ul li {
+	width: 200px;
+	border-radius: 8px;
+}
+
+.commonNav ul li ul li a {
+	font-size: 14px;
+	font-weight: 1000;
+	padding: 8px 14px; /*spacing between dropdown options*/
+}
+
+.commonNav ul li ul li a:hover {
+	background-color: #e5e5e5;
+	border-radius: 8px 8px 8px 8px;
+	color: black;
+}
+
+.commonNav ul ul ul {
+	background-color: white;
+	margin-left: 195px;
+	top: 5px;
+	border-radius: 8px 8px 8px 8px;
+}

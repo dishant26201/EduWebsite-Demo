@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+}
+
+
+body {
+	font-family: arial !important;
+	background-color: white;
+
+}
+
+.wrapper {
+	margin-right: auto;
+  	margin-left: auto;
+  	max-width: 2000px;
+}
+
+.registerButton {
+  background-color: #00cc00;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 14px 20px;
+  margin-top: 7px;
+  margin-right: 30px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  outline: none;
+}
+
+.registerButton:hover {
+	opacity: 0.9;
+}
+
+.payMethod {
+	line-height: 55px;
+	float: right;
+	display:inline-block;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+.commonNav {
+	position: sticky;
+	top: 0px;
+    z-index: 10;
+	width: 100%;
+	height: 60px;
+	background: white;
+	box-shadow: 0 2px 4px -0.5px rgba(0,0,0,1);
+
+}
+
+.commonNav p {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+.commonNav p a {
+	text-decoration: none;
+	color: black;
+}
+
+.commonNav ul {
+	float: left;
+}
+
+.commonNav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+
+}
+
+.commonNav ul li a {
+	display: block;
+	font-weight: bolder;
+	color: black;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+
+.commonNav ul li a:hover {
+	color: #2952a3;
+}
+
+.commonNav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0 2px 4px -0.5px rgba(0,0,0,1);
+	border-radius: 8px 8px 8px 8px;
+}
+
+.commonNav ul li:hover > ul{
+	display: block
+}
+
+.commonNav ul li ul li {
+	width: 200px;
+	border-radius: 8px;
+}
+
+.commonNav ul li ul li a {
+	padding: 8px 14px; /*spacing between dropdown options*/
+}
+
+.commonNav ul li ul li a:hover {
+	background-color: #e6e6e6;
+	border-radius: 8px 8px 8px 8px;
+	color: black;
+}
+
+.commonNav ul ul ul {
+	background-color: white;
+	margin-left: 195px;
+	top: 5px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.missionHeader {
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/mission.png');
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+}
+
+.missionHeader h2 {
+	width: 60%;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #ffffff;
+	line-height: 1.5;
+	padding-top: 70px;
+}
+
+.purpose {
+	margin-top: 100px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.purpose h2 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 40px;
+}
+
+.purpose p {
+	font-size: 24px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.commitment {
+	margin-top: 100px;
+}
+
+.commitment h2 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.values {
+	height: 300px;
+	width: 100%;
+	background-color: #33cc33;
+}
+
+.carousel {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.carousel h2 {
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 50px;
+}
+
+.glide__slide img {
+	width: 1000px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	object-fit: cover;
+	border: 1px solid black;
+}
+
+.glide__bullets {
+	margin-top: 75px;
+}
+
+.freeDemo {
+	margin-top: 150px;
+	width: 100%;
+	background-color: #000066;
+	height: 230px;
+}
+
+.freeDemo h2 {
+	font-weight: 1000;
+	color: white;
+	font-size: 40px;
+	margin-left: 200px;
+	padding-top: 50px;
+}
+
+.submitButton2 {
+  width: 200px;
+  background-color: #00cc00;
+  color: white;
+  margin-top: 25px;
+  margin-left: 200px;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px 21px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.commonFooter {
+	background-color: #262626;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.commonQuickLinks { 
+    display: inline-block;
+    color: white;
+    margin-left: 100px;
+    margin-top: 40px;
+} 
+
+.commonResources {
+	display: inline-block;
+    color: white;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.commonQuickLinks ul, .commonResources ul {
+	margin-top: 25px;
+	list-style-type: none;
+}
+
+.commonQuickLinks ul li, .commonResources ul li {
+	padding-bottom: 10px;
+}
+
+.commonQuickLinks ul li a, .commonResources ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.commonContactInfo {
+	float: right;
+	width: 25%;
+	color: white;
+	margin-right: 100px;
+	margin-top: 40px;
+}
+
+.commonContactInfo ul {
+	margin-top: 25px;
+	list-style-type: none;
+}
+
+.commonContactInfo ul li {
+	padding-bottom: 10px;
+}
+
+.commonContactInfo ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.commonQuickLinks h2, .commonResources h2, .commonContactInfo h2 {
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.commonTC {
+	margin-left: 100px;
+	padding-top: 50px;
+	width: 25%;
+}
+
+.commonTC ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.commonTC ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.socialMedia {
+	float: right;
+	width: 25%;
+	margin-right: 100px;
+	margin-top: -50px;
+	margin-bottom: 30px;
+}
+
+.socialMedia img {
+	width: 15mm;
+	height: 15mm;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.socialMedia img:hover {
+	opacity: 0.7;
+}

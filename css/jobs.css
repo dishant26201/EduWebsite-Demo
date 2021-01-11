@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+}
+
+body {
+	font-family: arial !important;
+	background-color: white;
+}
+
+.wrapper {
+	margin-right: auto;
+  	margin-left: auto;
+  	max-width: 2000px;
+}
+
+.commonNav {
+	position: sticky;
+	top: 0px;
+    z-index: 10;
+	width: 100%;
+	height: 60px;
+	background: white;
+	box-shadow: 0 2px 4px -0.5px rgba(0,0,0,1);
+
+}
+
+.commonNav p {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 100px;
+}
+
+.commonNav p a {
+	text-decoration: none;
+	color: black;
+}
+
+.commonNav ul {
+	float: left;
+}
+
+.commonNav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+
+}
+
+.commonNav ul li a {
+	display: block;
+	font-weight: bold;
+	font-family: arial;
+	color: black;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+
+.commonNav ul li a:hover {
+	color: #003cb3;
+}
+
+.commonNav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0 2px 4px -0.5px rgba(0,0,0,1);
+	border-radius: 8px 8px 8px 8px;
+}
+
+.commonNav ul li:hover > ul{
+	display: block
+}
+
+.commonNav ul li ul li {
+	width: 180px;
+	border-radius: 8px;
+}
+
+.commonNav ul li ul li a {
+	padding: 8px 14px; /*spacing between dropdown options*/
+}
+
+.commonNav ul li ul li a:hover {
+	background-color: #99bbff;
+	border-radius: 8px 8px 8px 8px;
+	color: black;
+}
+
+.commonNav ul ul ul {
+	background-color: white;
+	margin-left: 180px;
+	top: 5px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.jobsHeader {
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/jobs1.png');
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+}
+
+.atmosphere {
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 70%;
+	margin-bottom: 100px;
+}
+
+.atmosphere h2 {
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.atmosphere p {
+	font-size: 18px;
+	text-align: justify;
+	line-height: 2;
+}
+
+.jobs {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	height: 300px;
+	margin-bottom: 50px;
+}
+
+.job1, .job2, .job3 {
+	width: 350px;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-left: 40px;
+	float: left;
+	border-radius: 10px;
+	transition: transform 0.2s;
+}
+
+.job1 h2, .job2 h2, .job3 h2 {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	color: #000099;
+}
+
+.job1 h3, .job2 h3, .job3 h3 {
+	font-size: 18px;
+	color: #595959;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.job1 p, .job2 p, .job3 p {
+	font-size: 16px;
+	color: #000000;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.job1:hover, .job2:hover, .job3:hover {
+	-ms-transform: scale(1.5); 
+	-webkit-transform: scale(1.5);
+	transform: scale(1.05); 
+	cursor: pointer;
+	background-color: #bfbfbf;
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,1);
+}
+
+.commonFooter {
+	background-color: #262626;
+	width: 100%;
+	margin-top: 100px;
+	height: auto;
+	overflow: hidden;
+}
+
+.commonQuickLinks { 
+    display: inline-block;
+    color: white;
+    margin-left: 100px;
+    margin-top: 40px;
+} 
+
+.commonResources {
+	display: inline-block;
+    color: white;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.commonQuickLinks ul, .commonResources ul {
+	margin-top: 25px;
+	list-style-type: none;
+}
+
+.commonQuickLinks ul li, .commonResources ul li {
+	padding-bottom: 10px;
+}
+
+.commonQuickLinks ul li a, .commonResources ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.commonContactInfo {
+	float: right;
+	width: 25%;
+	color: white;
+	margin-right: 100px;
+	margin-top: 40px;
+}
+
+.commonContactInfo ul {
+	margin-top: 25px;
+	list-style-type: none;
+}
+
+.commonContactInfo ul li {
+	padding-bottom: 10px;
+}
+
+.commonContactInfo ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.commonQuickLinks h2, .commonResources h2, .commonContactInfo h2 {
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.commonTC {
+	margin-left: 100px;
+	padding-top: 50px;
+	width: 25%;
+}
+
+.commonTC ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.commonTC ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.socialMedia {
+	float: right;
+	width: 25%;
+	margin-right: 100px;
+	margin-top: -50px;
+	margin-bottom: 30px;
+}
+
+.socialMedia img {
+	width: 15mm;
+	height: 15mm;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.socialMedia img:hover {
+	opacity: 0.7;
+}
+
+
+
+
